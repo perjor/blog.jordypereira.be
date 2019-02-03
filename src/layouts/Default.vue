@@ -1,14 +1,17 @@
 <template>
   <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link :to="{ name: 'home' }">{{ $static.metaData.siteName }}</g-link>
-      </strong>
-      <!-- <nav class="nav">
-        <g-link class="nav__link" :to="{ name: 'home' }">Home</g-link>
-      </nav> -->
+    <header class="header bg-brand">
+      <div class="pl-5">
+        <g-link :to="{ name: 'home' }" class="text-white no-underline hover:text-black transition-1">{{ $static.metaData.siteName }}</g-link>
+      </div>
+      <nav>
+        <span class="text-white mx-5">Currently doing an internship in Stockholm!</span>
+        <!-- <g-link class="mx-5 inline text-black" :to="{ name: 'home' }">Check out the pictures</g-link> -->
+      </nav>
     </header>
-    <slot/>
+    <div class="container">
+      <slot/>
+    </div>
   </div>
 </template>
 
@@ -22,17 +25,7 @@ query {
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  @apply font-sans;
 }
 
 .header {
@@ -41,9 +34,5 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
 }
 </style>
