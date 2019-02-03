@@ -16,5 +16,8 @@ module.exports = {
         typeName: 'Post',
       },
     },
+    {
+      use: 'gridsome-plugin-tailwindcss',
+    },
   ],
 }
