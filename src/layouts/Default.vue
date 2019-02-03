@@ -4,9 +4,9 @@
       <strong>
         <g-link :to="{ name: 'home' }">{{ $static.metaData.siteName }}</g-link>
       </strong>
-      <nav class="nav">
+      <!-- <nav class="nav">
         <g-link class="nav__link" :to="{ name: 'home' }">Home</g-link>
-      </nav>
+      </nav> -->
     </header>
     <slot/>
   </div>
