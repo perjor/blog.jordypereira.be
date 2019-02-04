@@ -23,3 +23,12 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+h2 {
+  margin-bottom: 1.5rem;
+}
+p {
+  margin-bottom: 1rem;
+}
+</style>
