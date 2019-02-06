@@ -1,3 +1,15 @@
+---
+
+title: Half a week in
+
+date: 2019-01-06
+
+published: true
+
+---
+
+
+
 I'm very happy that I got to work on a fresh project, which is seperated from the big main project.
 
 The main project has a lot of old code and practises you have to consider, but in this New project I can help define the guidelines for further projects.
