@@ -48,4 +48,8 @@ body {
   margin-bottom: 20px;
   min-height: 50px;
 }
+
+.container {
+  min-height: 80vh;
+}
 </style>
