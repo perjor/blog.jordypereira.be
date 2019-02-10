@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Jordy Pereira Blog',
+  siteName: 'Jordy Pereira - Blog',
   siteDescription: 'I write Vue / Javascript and personal articles.',
   siteUrl: 'https://blog.jordypereira.be',
   plugins: [

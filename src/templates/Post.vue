@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div v-html="$page.post.content"/>
+    <div v-html="$page.post.content" class="blog-post"/>
   </Layout>
 </template>
 
@@ -24,11 +24,11 @@ export default {
 };
 </script>
 
-<style scoped>
-h2 {
+<style>
+.blog-post > h2 {
   margin-bottom: 1.5rem;
 }
-p {
+.blog-post > p {
   margin-bottom: 1rem;
 }
 </style>
