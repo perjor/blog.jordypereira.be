@@ -50,6 +50,12 @@ body {
 }
 
 .container {
-  min-height: 80vh;
+  min-height: 70vh;
+}
+
+@screen sm {
+  .container {
+    min-height: 80vh;
+  }
 }
 </style>
