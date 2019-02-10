@@ -43,3 +43,20 @@ There are a lot of coffeebars here, and every one of them has a nice assortment 
 I enjoy sitting here. Yesterday I was translating the company's conversations in Slack, to learn a bit of Swedish. Seems there was a huge bug and bugfix on friday. Completely avoided that one since I was so focused on my drag and drop editor.
 
 ![Coffeebar](/images/coffeebar.jpg)
+
+So today I've been out on my own all day. Walked from Gamla Stan all the way up to Norrmalm, visited some shops and stayed for a bit at a coffee bar, then I walked all the way to Djurgården. They have a lot of musea there. Apparantly they all close at 17h, and I was there at 16h50.
+
+![Google Maps Route that I walked](/images/route-10feb.jpg)
+
+But it seems the Nordiska Museet is free on tuesdays from 13h till 17h, so I guess Tuesday is gonna be museum day. There is also a huge ship which they restored recently, together with a viking museum and an ABBA museum.
+
+![Nordiska Museet](/images/nordiskamuseet.jpg)
+
+My colleagues at work told me I should try the herring. So my plan was to find a restaurant in Gamla Stan and try some fish.
+
+The part where you see me traversing the water is where I took the ferry. 
+As I arrived in Gamla Stan, I did come across some good restaurants, but it felt a bit weird going to a fancy restaurant and order fish from 28 euros all on my own. 
+
+![On the ferry with random people](/images/ferry.jpg)
+
+So I found a cafe wish served a meatballs special for 10 euros. That's more my style.
