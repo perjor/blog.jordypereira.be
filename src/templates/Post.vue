@@ -28,6 +28,9 @@ export default {
 .blog-post > h2 {
   margin-bottom: 1.5rem;
 }
+.blog-post > h3 {
+  margin-bottom: 1.2rem;
+}
 .blog-post > p {
   margin-bottom: 1rem;
 }
