@@ -20,13 +20,15 @@ We're defining a new styleguide and since I love working with Tailwind.css, I ha
 
 For this new project there are a lot of issues that have been made and a roadmap that we will try to follow. One of the more difficult issues was to make the drag and drop editor.
 
-I just finished my issue and my mentor asked me if I was up for it. I've never done something like it but I said I wanted to give it a shot. When I asked which library we would use for the drag and drop implementation, my mentor answered none. He had already made a jsfiddle with some dragging, and I could take some code from there to make it.
+I had just finished my issue and my mentor asked me if I was up for it. I've never done something like it but I said I wanted to give it a shot. When I asked which library we would use for the drag and drop implementation, my mentor told me we were going to write it from scratch. He had already made a jsfiddle with some dragging, and I could take some code from there to make it.
 
-So that's what I've doing the last half of the week. Struggling with one big issue. Thursday I stayed till 19h because I really wanted to get it right. I'm happy to say that I finished friday at 16h with this big issue. It probably needs some more improvements but I got it working.
+So that's what I've doing the last half of the week. Struggling with one big issue. Thursday I stayed till 19h because I really wanted to get it right. 
+
+I'm happy to say that I finished it friday at 16h. It probably needs some more improvements but I got it working.
 
 ![Drag and drop in Vue](/images/vue-dragndrop.png)
 
-So I went home a bit early on friday. You can decide when you come in the office and go as long as you get 40 work hours in a week. It's a very nice work environment.
+So I went home a bit early on friday. You can decide when you come in and go at the office as long as you get 40 work hours in a week. It's a very nice work environment.
 
 ### Living
 
