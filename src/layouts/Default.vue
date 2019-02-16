@@ -1,14 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col">
-    <header class="header bg-brand py-3">
-      <div class="pl-5">
-        <g-link :to="{ name: 'home' }" class="text-white font-thin no-underline hover:text-black transition-1">{{ $static.metaData.siteName }}</g-link>
-      </div>
-      <nav class="mx-5 text-right">
-        <span class="text-white">Currently doing an internship in Stockholm!</span>
-        <!-- <g-link class="mx-5 inline text-black" :to="{ name: 'home' }">Check out the pictures</g-link> -->
-      </nav>
-    </header>
+    <TheHeader />
     <div class="container flex-1 pt-5">
       <slot/>
     </div>
@@ -16,21 +8,15 @@
   </div>
 </template>
 
-<static-query>
-query {
-  metaData {
-    siteName
-  }
-}
-</static-query>
-
 <script>
 import TheFooter from '../components/TheFooter';
+import TheHeader from '../components/TheHeader';
 
 export default {
   name: 'DefaultLayout',
   components: {
     TheFooter,
+    TheHeader,
   },
 }
 </script>
