@@ -2,9 +2,10 @@
 title: First weekend in Stockholm
 date: 2019-01-03
 published: true
+tags: internship, travels
 ---
 
-## First weekend in Stockholm
+# First weekend in Stockholm
 
 My name is Jordy Pereira, and for my internship I'm travelling to Stockholm, to help the company ProReNata with their application.  
 

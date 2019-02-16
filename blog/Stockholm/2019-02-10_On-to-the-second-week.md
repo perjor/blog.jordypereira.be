@@ -8,9 +8,9 @@ published: true
 
 ---
 
-## On to the second week
+# On to the second week
 
-### Working
+## Working
 
 The first week is over. It was a very fun experience and the people working at ProReNata AB are really friendly and I get along with all of them.
 
@@ -30,7 +30,7 @@ I'm happy to say that I finished it friday at 16h. It probably needs some more i
 
 So I went home a bit early on friday. You can decide when you come in and go at the office as long as you get 40 work hours in a week. It's a very nice work environment.
 
-### Living
+## Living
 
 If I get food at the restaurant across the office, I pay 10 euros for a good meal. In fact the meal is more than plenty, which makes it so I can split it and eat 2 days from it. That's 5 euros a day and I've already got my big meal of the day.
 

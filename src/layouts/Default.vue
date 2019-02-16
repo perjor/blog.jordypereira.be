@@ -39,6 +39,8 @@ export default {
 <style>
 body {
   @apply font-sans;
+  min-height: 100vh;
+  height: 100vh;
 }
 
 .header {
@@ -55,7 +57,7 @@ body {
 
 @screen sm {
   .container {
-    min-height: 80vh;
+    /* min-height: 80vh; */
   }
 }
 </style>

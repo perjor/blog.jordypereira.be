@@ -8,7 +8,7 @@ published: true
 
 ---
 
-## Half a week in
+# Half a week in
 
 I'm very happy that I got to work on a fresh project, which is seperated from the big main project.
 

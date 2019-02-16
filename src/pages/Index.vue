@@ -1,9 +1,11 @@
 <template>
   <Layout>
-    <div v-for="post in publishedPosts" :key="post.node.id" class="flex flex-col">
+    <div class="overview">
+      <div v-for="post in publishedPosts" :key="post.node.id" class="flex flex-col">
       <g-link :to="post.node.path" class="my-5 text-lg sm:text-xl md:text-2xl no-underline text-black hover:text-brand transition-1">
         <span class="font-italic text-sm text-grey-dark">{{ post.node.date.split('T')[0] }}</span> {{ post.node.title }} &#8594;
       </g-link>
+    </div>
     </div>
   </Layout>
 </template>
@@ -35,3 +37,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.overview {
+  min-height: 75vh;
+}
+</style>

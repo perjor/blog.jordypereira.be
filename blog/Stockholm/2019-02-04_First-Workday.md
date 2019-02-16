@@ -4,7 +4,7 @@ date: 2019-01-04
 published: true
 ---
 
-## First Workday at ProReNata AB
+# First Workday at ProReNata AB
 
 Monday morning is the big meeting day of the week. At 9AM the company has breakfeast and everyone gets together. 
 At 10h there's a meeting and the product team discusses everything that they will work on this week, aswell as discussing what they did last week. 
