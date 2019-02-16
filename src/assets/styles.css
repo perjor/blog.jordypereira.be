@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .transition-2 {
-    transition: 2s;
+  transition: 2s;
 }
 
 .transition-1 {
-    transition: 1s;
+  transition: 1s;
 }

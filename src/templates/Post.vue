@@ -25,8 +25,10 @@ export default {
 </script>
 
 <style>
-.blog-post > * {
-  margin-left: 2rem;
+@media screen and (min-width: 578px) {
+ .blog-post > * {
+    margin-left: 2rem;
+  } 
 }
 
 .blog-post > h1 {
