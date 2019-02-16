@@ -2,7 +2,7 @@
 
 title: On to the second week
 
-date: 2019-01-10
+date: 2019-02-10
 
 published: true
 
@@ -59,4 +59,4 @@ As I arrived in Gamla Stan, I did come across some good restaurants, but it felt
 
 ![On the ferry with random people](/images/ferry.jpg)
 
-So I found a cafe wish served a meatballs special for 10 euros. That's more my style.
+So I found a cafe wich served a meatballs special for 10 euros. That's more my style.
