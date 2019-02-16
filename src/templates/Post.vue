@@ -58,7 +58,6 @@ export default {
 .blog-post > p {
   position: relative;
   margin-bottom: 1rem;
-  padding-left: 1rem;
   letter-spacing: 0.3px;
   line-height: 1.5rem;
 }
@@ -66,7 +65,20 @@ export default {
 .blog-post > p:first-of-type {
   font-weight: 300;
   margin-top: 1rem;
+  padding-left: 1rem;
 }
+
+.blog-post > p:first-of-type:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+  height: 60%;
+  width: 100%;
+  border-left: 2px solid rgba(255, 87, 34, 0.7);
+}
+
 .blog-post > p:last-of-type {
   font-weight: 500;
   font-style: italic;
@@ -83,16 +95,5 @@ export default {
   left: 35%;
   width: 30%;
   border-bottom: 2px solid rgba(255, 87, 34, 0.6);
-}
-
-.blog-post > p:first-of-type:after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 20%;
-  right: 0;
-  height: 60%;
-  width: 100%;
-  border-left: 2px solid rgba(255, 87, 34, 0.7);
 }
 </style>
