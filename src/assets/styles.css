@@ -9,3 +9,6 @@
 .transition-1 {
   transition: 1s;
 }
+.text-2xs {
+  font-size: 0.625rem;
+}

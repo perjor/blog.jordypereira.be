@@ -6,6 +6,8 @@ date: 2019-02-10
 
 published: true
 
+tags: internship, travels
+
 ---
 
 # On to the second week

@@ -1,7 +1,13 @@
 ---
+
 title: First Workday at ProReNata AB
+
 date: 2019-02-04
+
 published: true
+
+tags: internship, travels
+
 ---
 
 # First Workday at ProReNata AB

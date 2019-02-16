@@ -6,7 +6,12 @@
         <div class="flex justify-between">
           <div class="flex items-center">
             <span class="font-italic text-sm text-grey-dark mr-2 flex-no-shrink">{{ post.node.date.split('T')[0] }}</span> 
-            <span>{{ post.node.title }}</span>
+            <div class="flex flex-col">
+                <!-- <span class="text-2xs text-orange-light">
+                  {{ post.node.tags }}
+                </span> -->
+                <span>{{ post.node.title }}</span>
+            </div>
           </div>
           <div class="self-center text-3xl">
            &#8594;
@@ -27,6 +32,7 @@ query Posts {
         path
         date
         published
+        tags
       }
     }
   }
@@ -36,10 +42,25 @@ query Posts {
 <script>
 export default {
   name: 'Home',
+  data() {
+    return {
+      currentFilter: '',
+    }
+  },
   computed: {
     publishedPosts() {
       return this.$page.posts.edges.filter(post => {
-        return post.node.published == true
+        if (post.node.published == true) {
+          if (this.currentFilter === '') {
+            return true
+          }
+          const tags = post.node.tags.split(', ');
+          
+          if (tags.includes(this.currentFilter)) {
+            return true;
+          }
+        }
+        return false;
       })
     },
   },
