@@ -82,7 +82,7 @@ export default {
 }
 
 .blog-post > p:last-of-type {
-  font-weight: 500;
+  font-weight: 600;
   font-style: italic;
   text-align: center;
   margin-top: 2rem;
