@@ -12,3 +12,27 @@
 .text-2xs {
   font-size: 0.625rem;
 }
+
+.dark-bg-dark {
+  background-color: #FFF5EB;
+}
+
+.dark-text {
+  color: #22292F;
+}
+
+.hover-dark-text:hover {
+  color: #22292F;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark-bg-dark {
+    background-color: #22292F;
+  }
+  .dark-text {
+    color: #fff5eb;
+  }
+  .hover-dark-text:hover {
+    color: #fff5eb;
+  }
+}

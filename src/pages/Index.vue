@@ -5,7 +5,7 @@
         <span :class="filterTogglerClasses" @click="toggleFilter('')">{{ this.currentFilter ? 'Clear filter' : 'Filter on:' }}</span><span :class="filterClass(filter)" v-for="(filter, i) in filters" :key="i" @click="toggleFilter(filter)">{{ filter }} &nbsp;</span>
       </div>
       <div v-for="post in publishedPosts" :key="post.node.id" class="flex flex-col">
-      <g-link :to="post.node.path" class="my-5 text-lg sm:text-xl md:text-2xl no-underline text-black hover:text-brand transition-1">
+      <g-link :to="post.node.path" class="my-5 text-lg sm:text-xl md:text-2xl no-underline text-black dark-text hover:text-brand transition-1">
         <div class="flex justify-between">
           <div class="flex items-center">
             <span class="font-italic text-sm text-grey-dark mr-2 flex-no-shrink">{{ post.node.date | humanDate }}</span> 
@@ -90,7 +90,7 @@ export default {
     },
 
     filterTogglerClasses() {
-      const classes = ['mr-2'];
+      const classes = ['mr-2', 'dark-text'];
 
       if (this.currentFilter) {
         classes.push('hover:text-brand');
