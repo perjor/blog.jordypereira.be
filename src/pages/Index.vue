@@ -8,7 +8,7 @@
       <g-link :to="post.node.path" class="my-5 text-lg sm:text-xl md:text-2xl no-underline text-black hover:text-brand transition-1">
         <div class="flex justify-between">
           <div class="flex items-center">
-            <span class="font-italic text-sm text-grey-dark mr-2 flex-no-shrink">{{ post.node.date.split('T')[0] }}</span> 
+            <span class="font-italic text-sm text-grey-dark mr-2 flex-no-shrink">{{ post.node.date | humanDate }}</span> 
             <span>{{ post.node.title }}</span>
             <!-- <span class="text-2xs text-orange-light ml-2">
               {{ post.node.tags }}
@@ -46,6 +46,18 @@ export default {
   data() {
     return {
       currentFilter: '',
+    }
+  },
+  filters: {
+    humanDate: function (value) {
+      if (!value) return ''
+      // value = value.split('T')[0];
+      // value = value.split('-');
+      const date = new Date(value);
+      const day = date.getDate();
+      const month = date.toLocaleString('en-us', { month: 'short' });
+
+      return `${day} ${month}`;
     }
   },
   computed: {
