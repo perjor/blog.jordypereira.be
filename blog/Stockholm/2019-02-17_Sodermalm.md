@@ -1,6 +1,6 @@
 ---
 
-title: Sodermalm weekend walk
+title: Weekend-Walk Sodermalm
 
 date: 2019-02-17
 
