@@ -6,7 +6,7 @@ date: 2019-02-04
 
 published: true
 
-tags: internship, travels
+tags: internship
 
 ---
 
