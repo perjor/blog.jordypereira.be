@@ -8,6 +8,16 @@ module.exports = {
   siteName: 'Jordy Pereira - Blog',
   siteDescription: 'I write Vue / Javascript and personal articles.',
   siteUrl: 'https://blog.jordypereira.be',
+  transformers: {
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: [
+        // ...global plugins
+      ]
+    }
+  },
   plugins: [
     {
       use: '@gridsome/source-filesystem',
