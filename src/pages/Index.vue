@@ -76,9 +76,10 @@ export default {
       const classes = ['mr-2'];
 
       if (this.currentFilter) {
-        classes.push('cursor-pointer');
         classes.push('hover:text-brand');
+        classes.push('cursor-pointer');
         classes.push('transition-1');
+        classes.push('select-none');
       }
 
       return classes;
