@@ -12,7 +12,7 @@ tags: internship
 
 # First Workday at ProReNata AB
 
-Monday morning is the big meeting day of the week. At 9AM the company has breakfeast and everyone gets together. 
+Monday morning is the big meeting day of the week. At 9AM the company has breakfast and everyone gets together. 
 At 10h there's a meeting and the product team discusses everything that they will work on this week, aswell as discussing what they did last week. 
 
 I arrived at 8h20, got a good breakfast and attended the meetings, which are usually in Swedish but this time they did it in English.

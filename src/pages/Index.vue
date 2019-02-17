@@ -43,6 +43,11 @@ query Posts {
 <script>
 export default {
   name: 'Home',
+    metaInfo() {
+    return {
+      title: 'Overview'
+    };
+  },
   data() {
     return {
       currentFilter: '',

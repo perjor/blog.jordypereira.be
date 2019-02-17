@@ -26,7 +26,7 @@ I will roughly give my take on the things I encounter while I'm doing this. Not 
 
 Saturday I woke up at 8h30 and cleaned my room, did the laundry, dishes etc., allowing me to start the trip at 12h.  
 
-The first thing I did was already strafe from my main path into the big park, there I already spotted a coffeebar on google maps I wanted to check out.
+The first thing I did was already strafe from my main path into the big park, where I already spotted a coffeebar on google maps I wanted to check out.
 
 ## Icy paths
 
@@ -44,7 +44,7 @@ The coffeebar I saw on Google Maps seemed to be closed on the weekend. No proble
 
 This one seemed to be a really small coffee bakery shop. I was kindof hungry so I thought to just get some pastry here.
 
-When I entered I did notice that people where coming from upstairs. 
+When I entered I did notice that people were coming from upstairs. 
 
 I always try to tell them to communicate to me in English by just saying "I'm sorry?" when they say something in Swedish that I don't understand.  
 I pointed to the pastry I wanted, and when she asked "Coffee?" I just said "ok.". Then she said "coffee upstairs". 
@@ -53,7 +53,7 @@ So I went upstairs with my pastry. The thing I'm really profound of is honesty s
 
 ![Coffee bar upstairs - table laid out with coffee, tea, water and cups](/images/17feb/coffeebar-take-all.jpg)
 
-I forgot to check for the wifi info. Mostly this is noted somewhere at the counter or on your receipt. So I tried to read/scan a Swedish newspaper.
+I forgot to check for the wifi info. Often this is noted somewhere at the counter or on your receipt. So I tried to read/scan a Swedish newspaper.
 
 Since I wanted to at least refill my coffee once, I decided to go ask her for the wifi. But it seems this one doesn't have one. 
 
