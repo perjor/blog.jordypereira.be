@@ -1,6 +1,6 @@
 <template>
   <footer class="w-full flex justify-center my-3">
-    <p class="mx-2 flex justify-center flex-wrap dark-text">
+    <p class="mx-2 flex justify-center flex-wrap text-theme">
       Follow me on
       <a
         v-for="link in links"
@@ -8,7 +8,7 @@
         :href="link.url"
         rel="noopener"
         target="_blank"
-        class="t no-underline hover:text-brand transition-1 px-1"
+        class="no-underline hover:text-brand transition-1 px-1"
         :class="`text-${link.color}`"
       >{{ link.name }}</a>
     </p>
@@ -37,7 +37,7 @@ export default {
           id: 3,
           name: 'Github',
           url: 'https://instagram.com/jordy_pereira',
-          color: 'grey-darkest',
+          color: 'theme',
         },
       ],
     };

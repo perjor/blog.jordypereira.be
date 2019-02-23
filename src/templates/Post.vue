@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div v-html="$page.post.content" class="blog-post dark-text"/>
+    <div v-html="$page.post.content" class="blog-post text-theme"/>
   </Layout>
 </template>
 
