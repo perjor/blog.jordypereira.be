@@ -23,9 +23,14 @@ export default {
   methods: {
     toggleTheme() {
       const root = document.documentElement;
+      const currentTheme = getComputedStyle(root, null).getPropertyValue('--color-theme-bg');
+
+      this.setTheme(root, currentTheme);
+      localStorage.setItem('theme', currentTheme);
+    },
+    setTheme(root, currentTheme) {
       const darkColor = getComputedStyle(root, null).getPropertyValue('--color-dark');
       const lightColor = getComputedStyle(root, null).getPropertyValue('--color-light');
-      const currentTheme = getComputedStyle(root, null).getPropertyValue('--color-theme-bg');
       let newThemeColorBg = darkColor; 
       let newThemeColorText = lightColor;
 
@@ -38,5 +43,13 @@ export default {
       root.style.setProperty('--color-theme-text', newThemeColorText);
     },
   },
+  mounted() {
+    const preferredTheme = localStorage.getItem('theme');
+
+    if (preferredTheme) {
+      const root = document.documentElement;
+      this.setTheme(root, preferredTheme);
+    }
+  }
 }
 </script>
