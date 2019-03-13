@@ -9,7 +9,10 @@
         <div class="flex justify-between">
           <div class="flex items-center">
             <span class="font-italic text-sm text-grey-dark mr-2 flex-no-shrink">{{ post.node.date | humanDate }}</span> 
-            <span>{{ post.node.title }}</span>
+            <div>
+              <span>{{ post.node.title }}</span>
+              <p class="text-sm mt-2">{{ post.node.description }}</p>
+            </div>
             <!-- <span class="text-2xs text-orange-light ml-2">
               {{ post.node.tags }}
             </span> -->
@@ -34,6 +37,7 @@ query Posts {
         date
         published
         tags
+        description
       }
     }
   }

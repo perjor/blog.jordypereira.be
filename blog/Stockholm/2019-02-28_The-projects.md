@@ -1,12 +1,14 @@
 ---
 
-title: The projects 
+title: The projects - Our own style-guide
 
 date: 2019-03-13
 
 published: true
 
 tags: internship
+
+description: Deciding to make our own style-guide and I implement a company wide tailwind.js config file and export it into less variables.
 
 ---
 
