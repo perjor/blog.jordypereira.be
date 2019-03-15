@@ -14,7 +14,7 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
       plugins: [
-        // ...global plugins
+        '@gridsome/remark-prismjs'
       ]
     }
   },
@@ -24,6 +24,15 @@ module.exports = {
       options: {
         path: 'blog/**/*.md',
         typeName: 'Post',
+        route: '/:slug',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            route: '/tag/:id',
+            create: true
+          }
+        },
       },
     },
     {

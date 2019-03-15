@@ -6,7 +6,7 @@ date: 2019-03-15
 
 published: false
 
-tags: internship
+tags: ['internship']
 
 ---
 

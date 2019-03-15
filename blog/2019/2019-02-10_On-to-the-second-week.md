@@ -6,7 +6,7 @@ date: 2019-02-10
 
 published: true
 
-tags: internship
+tags: ['internship']
 
 description: "Meetings, understanding the company and writing a drag and drop editor from scratch."
 

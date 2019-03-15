@@ -6,7 +6,7 @@ date: 2019-02-17
 
 published: true
 
-tags: travels
+tags: ['travels']
 
 Description: "I walk around the island of Sodermalm, getting distracted along the way."
 

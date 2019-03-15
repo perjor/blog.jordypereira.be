@@ -6,7 +6,7 @@ date: 2019-03-13
 
 published: true
 
-tags: internship
+tags: ['internship']
 
 description: Deciding to make our own style-guide and I implement a company wide tailwind.js config file and export it into less variables.
 

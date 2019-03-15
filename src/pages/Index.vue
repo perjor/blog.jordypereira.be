@@ -2,7 +2,7 @@
   <Layout>
     <div class="overview">
       <div class="filters flex justify-center text-xs">
-        <span :class="filterTogglerClasses" @click="toggleFilter('')">{{ this.currentFilter ? 'Clear filter' : 'Filter on:' }}</span><span :class="filterClass(filter)" v-for="(filter, i) in filters" :key="i" @click="toggleFilter(filter)">{{ filter }} &nbsp;</span>
+        <span :class="filterTogglerClasses" @click="toggleFilter('')">{{ this.currentFilter ? 'Clear filter' : 'Filter on:' }}</span><span :class="filterClass(filter)" v-for="(filter, i) in filters" :key="i" @click="toggleFilter(filter)">{{ filter.title }} &nbsp;</span>
       </div>
       
       <PostCard v-for="post in publishedPosts" :key="post.node.id" :post="post.node"></PostCard>
@@ -19,7 +19,11 @@ query Posts {
         path
         date (format: "D MMM")
         published
-        tags
+        tags {
+          id
+          title
+          path
+        }
         description
       }
     }
@@ -50,9 +54,8 @@ export default {
           if (this.currentFilter === '') {
             return true
           }
-          const tags = post.node.tags.split(', ');
           
-          if (tags.includes(this.currentFilter)) {
+          if (post.node.tags.some(tag => tag.title === this.currentFilter.title)) {
             return true;
           }
         }
@@ -61,8 +64,8 @@ export default {
     },
     filters() {
       const filters = [];
-      filters.push('travels');
-      filters.push('internship');
+      filters.push({title: 'travels'});
+      filters.push({title:'internship'});
 
       return filters;
     },
