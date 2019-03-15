@@ -2,7 +2,7 @@
 
 title: Table component phase 1
 
-date: 2019-03-13
+date: 2019-03-15
 
 published: false
 
@@ -29,5 +29,7 @@ We settled on some minor code improvements, like calling a select that also dese
 In the end its not important what you decide, but that you decide on some rules to promote consistency.
 
 I set up a storybook with the new table component. I checked out some addons and found a knobs addon where you can toggle props.
+
+![Table component in Storybook with the knobs addon](./images/15mar/storybook-table.png)
 
 I'm quite happy with the storybook page.
