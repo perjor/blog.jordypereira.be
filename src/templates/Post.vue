@@ -64,6 +64,14 @@ export default {
   line-height: 1.5rem;
 }
 
+.blog-post > blockquote {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  letter-spacing: 0.3px;
+  line-height: 1.5rem;
+  border-left: 3px solid config('colors.grey-dark');
+}
+
 .blog-post > p:first-of-type {
   font-weight: 300;
   margin-top: 1rem;

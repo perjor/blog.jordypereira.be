@@ -8,6 +8,8 @@ published: true
 
 tags: ['internship']
 
+description: "Making a Table component out of a UX Designers specs and code reviewing it."
+
 ---
 
 # Table component: phase 1
