@@ -4,25 +4,8 @@
       <div class="filters flex justify-center text-xs">
         <span :class="filterTogglerClasses" @click="toggleFilter('')">{{ this.currentFilter ? 'Clear filter' : 'Filter on:' }}</span><span :class="filterClass(filter)" v-for="(filter, i) in filters" :key="i" @click="toggleFilter(filter)">{{ filter }} &nbsp;</span>
       </div>
-      <div v-for="post in publishedPosts" :key="post.node.id" class="flex flex-col">
-      <g-link :to="post.node.path" class="my-5 text-lg sm:text-xl md:text-2xl no-underline text-theme hover:text-brand transition-1">
-        <div class="flex justify-between">
-          <div class="flex items-center">
-            <span class="font-italic text-sm text-grey-dark mr-2 flex-no-shrink">{{ post.node.date }}</span> 
-            <div>
-              <span>{{ post.node.title }}</span>
-              <p class="text-sm mt-2">{{ post.node.description }}</p>
-            </div>
-            <!-- <span class="text-2xs text-orange-light ml-2">
-              {{ post.node.tags }}
-            </span> -->
-          </div>
-          <div class="self-center text-3xl">
-           &#8594;
-          </div>
-        </div>
-      </g-link>
-    </div>
+      
+      <PostCard v-for="post in publishedPosts" :key="post.node.id" :post="post.node"></PostCard>
     </div>
   </Layout>
 </template>
@@ -45,10 +28,15 @@ query Posts {
 </page-query>
 
 <script>
+import PostCard from '../components/PostCard'
+
 export default {
   name: 'Home',
   metaInfo: {
     title: 'Overview'
+  },
+  components: {
+    PostCard,
   },
   data() {
     return {
