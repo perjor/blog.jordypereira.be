@@ -67,6 +67,7 @@ export default {
 .blog-post > blockquote {
   margin-bottom: 1rem;
   padding-left: 1rem;
+  font-weight: 300;
   letter-spacing: 0.3px;
   line-height: 1.5rem;
   border-left: 3px solid config('colors.grey-dark');

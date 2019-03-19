@@ -4,7 +4,7 @@ title: In Depth Tailwind Questions
 
 date: 2019-03-17
 
-published: false
+published: true
 
 tags: ['internship']
 
