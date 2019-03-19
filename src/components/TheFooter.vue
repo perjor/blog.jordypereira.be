@@ -36,7 +36,7 @@ export default {
         {
           id: 3,
           name: 'Github',
-          url: 'https://instagram.com/jordy_pereira',
+          url: 'https://github.com/perjor',
           color: 'theme',
         },
       ],
