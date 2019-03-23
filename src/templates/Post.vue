@@ -65,12 +65,29 @@ export default {
 }
 
 .blog-post > blockquote {
+  position: relative;
   margin-bottom: 1rem;
   padding-left: 1rem;
   font-weight: 300;
   letter-spacing: 0.3px;
   line-height: 1.5rem;
-  border-left: 3px solid config('colors.grey-dark');
+}
+.blog-post > blockquote:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+  height: 60%;
+  width: 100%;
+  border-left: 2px solid rgba(255, 87, 34, 0.7);
+}
+
+.blog-post a {
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  line-height: 1.5rem;
+  color: inherit;
 }
 
 .blog-post > p:first-of-type {
