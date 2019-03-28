@@ -53,6 +53,7 @@ export default {
 
 .blog-post > h2 {
   margin-bottom: 1.5rem;
+  margin-top: 2rem;
 }
 .blog-post > h3 {
   margin-bottom: 1.2rem;
