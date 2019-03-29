@@ -84,6 +84,14 @@ export default {
   border-left: 2px solid rgba(255, 87, 34, 0.7);
 }
 
+.blog-post > pre {
+  border-radius: 0.25rem;
+}
+:not(pre) > code[class*="language-"] {
+  border-radius: 0.25rem;
+  padding: 0.1em 0.3em;
+}
+
 .blog-post a {
   font-weight: 300;
   letter-spacing: 0.3px;
