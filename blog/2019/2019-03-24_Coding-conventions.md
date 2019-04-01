@@ -21,7 +21,7 @@ For the last few weeks in the company my main project has been on hold. We have 
 In the process I have rewritten our tailwind variables multiple times.
 To start off, we use a [library to convert a tailwind config to less variables](https://github.com/dobromir-hristov/tailwindcss-export-config) written by [Dobromir Hristov](https://twitter.com/d_m_hristov).
 
-This works very straight forward where it takes am object with key-values and converts them into variables. e.g.
+This works very straight forward where it takes an object with key-values and converts them into variables. e.g.
 
 ```js
 const colors = {
@@ -102,7 +102,7 @@ Combining custom plugins with the separated variable files, I end up with a `var
 ```
 
 You might have noticed that our sizes are different than the original tailwind classnames.  
-This is because the developers base their designs of Zeplin, and zeplin doesn't support rem yet.  
-So these values are the pixels translation of a base-16 design.
+This is because the developers base their designs of Zeplin, and Zeplin doesn't support rem yet.  
+So these values are the pixels translation of a base-16px design.
 
 Now we can use the less variables in our UI library, and the awesome tailwind classes in our projects.
