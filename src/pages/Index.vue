@@ -17,7 +17,7 @@ query Posts {
       node {
         title
         path
-        date (format: "D MMM")
+        date (format: "DD MMM")
         published
         tags {
           id
