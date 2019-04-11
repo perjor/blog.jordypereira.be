@@ -12,8 +12,6 @@ description: "Making a Table component out of a UX Designers specs and code revi
 
 ---
 
-# Table component: phase 1
-
 We are starting a new style-guide and I'm working on the table component. I have made a first version and I'm displaying it using storybook.
 
 We chose to use native table tags instead of the alternative divs. We were worried that tables were bad at the more complicated stuff, like sticky-ing a header.

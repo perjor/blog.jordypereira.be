@@ -12,8 +12,6 @@ description: "I go through my process of starting a project"
 
 ---
 
-# Starting a project
-
 ## The idea
 
 The easiest way to find an idea is just writing down any problem you encounter in your own life. It really does not matter if it has already been made. You can make it better than they can. (If you're going to spend a lot of time in this, of course you can do some research, but don't let it hold you back to brainstorm about the idea).

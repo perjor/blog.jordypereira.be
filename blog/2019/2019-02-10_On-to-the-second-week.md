@@ -1,6 +1,6 @@
 ---
 
-title: "Drag and Drop editor"
+title: Drag and Drop editor
 
 date: 2019-02-10
 
@@ -11,8 +11,6 @@ tags: ['internship']
 description: "Meetings, understanding the company and writing a drag and drop editor from scratch."
 
 ---
-
-# Drag and Drop editor
 
 The first week is over. It was a very fun experience and the people working at ProReNata AB are really friendly and I get along with all of them.
 

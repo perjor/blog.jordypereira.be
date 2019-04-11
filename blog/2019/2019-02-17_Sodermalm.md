@@ -12,8 +12,6 @@ Description: "I walk around the island of Sodermalm, getting distracted along th
 
 ---
 
-# Sodermalm
-
 This weekend I decided to explore the area or island around me, Sodermalm.  
 It was a really sunny day.
 

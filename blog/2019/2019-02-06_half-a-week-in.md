@@ -10,8 +10,6 @@ tags: ['internship']
 
 ---
 
-# Half a week in
-
 I'm very happy that I got to work on a fresh project, which is separated from the big main project.
 
 The main project has a lot of old code and practices you have to consider, but in this new project I can help define the guidelines for further projects.

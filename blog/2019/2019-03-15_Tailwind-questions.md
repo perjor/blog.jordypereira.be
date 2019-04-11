@@ -12,8 +12,6 @@ description: "I've been working with tailwind for our company and want to custom
 
 ---
 
-# In Depth Tailwind Questions
-
 I've been scratching my head about how tailwind really works.
 
 I would really appreciate a more detailed article that goes past the regular installation process.

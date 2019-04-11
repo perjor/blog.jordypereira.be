@@ -12,8 +12,6 @@ description: "In this article I introduce you to our CSS conventions. In the las
 
 ---
 
-# Coding Conventions: CSS
-
 For the last few weeks in the company my main project has been on hold. We have been rewriting the ui elements and switching up our style guide using tailwind.
 
 ## A repo with all our tailwind variables

@@ -12,8 +12,6 @@ description: Deciding to make our own style-guide and I implement a company wide
 
 ---
 
-# The projects: Our own style-guide
-
 The project I'm working on, the Printout Template Editor, indirectly involves 2 other projects.
 
 One is our style-guide which we have started working on last month. I guess the UX designer is also part of our little team, but he only works 50% of the time.

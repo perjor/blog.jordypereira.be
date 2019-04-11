@@ -12,8 +12,6 @@ description: "Write your own tailwind plugins to decide the values and the class
 
 ---
 
-# Tailwind Plugins
-
 The best way to completely be in control is to override the default tailwind config with a custom plugin.
 
 _Disclaimer: This is based on tailwind v0.7.4_
