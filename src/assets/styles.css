@@ -50,6 +50,10 @@ body {
   background-color: var(--color-theme-bg);
 }
 
+html {
+  @apply bg-brand
+}
+
 .text-theme {
   color: var(--color-theme-text);
 }

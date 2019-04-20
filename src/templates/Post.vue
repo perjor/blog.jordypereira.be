@@ -52,7 +52,7 @@ export default {
   left: 1rem;
   width: 70%;
   height: 70%;
-  border-bottom: 2px solid rgba(255, 87, 34, 0.8);
+  border-bottom: 2px solid rgba(255, 102, 102, 0.8);
 }
 
 .blog-post h2 {
@@ -86,7 +86,7 @@ export default {
   right: 0;
   height: 60%;
   width: 100%;
-  border-left: 2px solid rgba(255, 87, 34, 0.7);
+  border-left: 2px solid rgba(255, 102, 102, 0.7);
 }
 
 .blog-post pre {
@@ -118,7 +118,7 @@ export default {
   right: 0;
   height: 60%;
   width: 100%;
-  border-left: 2px solid rgba(255, 87, 34, 0.7);
+  border-left: 2px solid rgba(255, 102, 102, 0.7);
 }
 
 .blog-post p:last-of-type {
@@ -136,6 +136,6 @@ export default {
   bottom: -3rem;
   left: 35%;
   width: 30%;
-  border-bottom: 2px solid rgba(255, 87, 34, 0.6);
+  border-bottom: 2px solid rgba(255, 102, 102, 0.6);
 }
 </style>
