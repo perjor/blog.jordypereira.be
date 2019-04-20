@@ -64,6 +64,7 @@ export default {
 }
 .blog-post p {
   position: relative;
+  margin-top: 0.25rem;
   margin-bottom: 1rem;
   letter-spacing: 0.3px;
   line-height: 1.5rem;
