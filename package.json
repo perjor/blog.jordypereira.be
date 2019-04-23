@@ -9,7 +9,8 @@
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/remark-prismjs": "^0.0.5",
-    "gridsome": "^0.5.5"
+    "gridsome": "^0.5.5",
+    "logrocket": "^0.6.20"
   },
   "resolutions": {
     "terser": "3.14.1"
