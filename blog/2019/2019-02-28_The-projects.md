@@ -4,7 +4,7 @@ title: The projects - Our own style-guide
 
 date: 2019-03-13
 
-published: true
+published: false
 
 tags: ['internship']
 

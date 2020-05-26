@@ -62,7 +62,7 @@ export default {
 .blog-post h3 {
   margin-bottom: 1.2rem;
 }
-.blog-post p {
+.blog-post div > p {
   position: relative;
   margin-top: 0.25rem;
   margin-bottom: 1rem;
@@ -104,13 +104,13 @@ export default {
   color: inherit;
 }
 
-.blog-post p:first-of-type {
+.blog-post div > p:first-of-type {
   font-weight: 300;
   margin-top: 1rem;
   padding-left: 1rem;
 }
 
-.blog-post p:first-of-type:after {
+.blog-post div > p:first-of-type:after {
   content: '';
   display: block;
   position: absolute;
@@ -121,7 +121,7 @@ export default {
   border-left: 2px solid rgba(255, 102, 102, 0.7);
 }
 
-.blog-post p:last-of-type {
+.blog-post div > p:last-of-type {
   font-weight: 600;
   font-style: italic;
   text-align: center;
@@ -129,7 +129,7 @@ export default {
   margin-bottom: 5rem;
 }
 
-.blog-post p:last-of-type:after {
+.blog-post div > p:last-of-type:after {
   content: '';
   display: block;
   position: absolute;

@@ -4,7 +4,7 @@ title: Half a week in
 
 date: 2019-02-06
 
-published: true
+published: false
 
 tags: ['internship']
 
