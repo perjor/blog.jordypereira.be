@@ -2,6 +2,8 @@
 
 title: Meditation 60 days / 60 min - Week 1
 
+slug: meditation-week-1
+
 date: 2020-05-28
 
 published: true
