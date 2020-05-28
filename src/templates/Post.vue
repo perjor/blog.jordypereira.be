@@ -104,13 +104,13 @@ export default {
   color: inherit;
 }
 
-.blog-post div > p:first-of-type {
+.blog-post div > p:first-of-type, .blog-post div > p > em {
   font-weight: 300;
   margin-top: 1rem;
   padding-left: 1rem;
 }
 
-.blog-post div > p:first-of-type:after {
+.blog-post div > p:first-of-type:after, .blog-post div > p > em:after {
   content: '';
   display: block;
   position: absolute;
