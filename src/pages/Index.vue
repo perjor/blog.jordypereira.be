@@ -1,9 +1,9 @@
 <template>
   <Layout>
     <div class="overview">
-      <div class="filters flex justify-center text-xs">
+      <!-- <div class="filters flex justify-center text-xs">
         <span :class="filterTogglerClasses" @click="toggleFilter('')">{{ this.currentFilter ? 'Clear filter' : 'Filter on:' }}</span><span :class="filterClass(filter)" v-for="(filter, i) in filters" :key="i" @click="toggleFilter(filter)">{{ filter.title }} &nbsp;</span>
-      </div>
+      </div> -->
       
       <PostCard v-for="post in publishedPosts" :key="post.node.id" :post="post.node"></PostCard>
     </div>

@@ -6,7 +6,7 @@ slug: meditation-week-1
 
 date: 2020-05-28
 
-published: true
+published: false
 
 tags: ['mental']
 
