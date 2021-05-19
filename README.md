@@ -1,4 +1,4 @@
-# Default starter for Gridsome
+# Markdown blog made in Gridsome
 >3 Feb 2019 
 
 
